@@ -5,10 +5,13 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function Page() {
   return (
-    <View className="flex flex-1">
-      <Header />
-      <Content />
-      <Footer />
+    <View className="flex justify-center items-center flex-1 bg-red-600">
+      <Text className="font-bold text-4xl ">
+        Hello Happy Diwali 
+      </Text>
+      <Text className="text-2xl">
+      🪔🎉🎇🎆🎊🎈🎁🕯️
+      </Text>
     </View>
   );
 }
